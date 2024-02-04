@@ -1,0 +1,24 @@
+.file > input[type="file"] {
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex : 0.1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .file > label {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    flex: 1;
+    background-color: #475569;
+    border: 2px #64748b solid;
+    border-radius: 12px;
+    color: white;
+    line-height: 30px;
+    cursor: pointer;
+  }
